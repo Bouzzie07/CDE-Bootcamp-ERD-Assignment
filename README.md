@@ -1,1 +1,2 @@
-# CDE-Bootcamp-ERD-Assignment
+```Case Study: Fufu Republic```
+**Overview:**
