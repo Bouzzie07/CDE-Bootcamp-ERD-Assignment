@@ -69,12 +69,14 @@ model (Any degree of abstraction is okay)
 - Domain Constraints: Attributes like dining_option, payment_method should conform to predefined values to avoid human error.
 - Business rule should apply to the core food services and optional food services
 
+ ![ERD](https://github.com/Bouzzie07/CDE-Bootcamp-ERD-Assignment/blob/main/ERD.png)
+
 2. Create a dimensional model:
 ○ Identify a business process of your choice
 In relation to one of the challenges;
 Inventory Management for Menu Planning: this involves  tracking ingredient inventory, ensuring ingredients are available for preparation of menu items, managing stock levels, and optimizing ingredient usage based on menu item demand. With proper reporting in place using data analysis tool; it will help FuFu Republic to track the frequency usage (daily, weekly, monthly) of ingredients based on popular demand, create a target for notification for re-ordering putting into consideration the duration of delivery from the suppliers.
 
-○ List the business question under the business process you selected
+***List the business question under the business process you selected***
 - How much of each ingredient is used for each menu item?
 - What are the current stock levels of ingredients required for menu items?
 - How often do we run out of ingredients needed for popular menu items?
@@ -82,7 +84,7 @@ Inventory Management for Menu Planning: this involves  tracking ingredient inven
 - How accurate are our forecasts for ingredient needs based on menu item sales?
 - How quick is the supply delivery time?
 
-○ Identify the grain, dimensions and fact.
+***Identify the grain, dimensions and fact.***
 Grain: One row per usage of ingredient in menu item preparation. This consists of the ingredient, quantity used, related menu-item, unit-measure, cost
 
 Dimensions:
