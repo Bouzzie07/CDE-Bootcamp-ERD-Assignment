@@ -51,10 +51,11 @@ model (Any degree of abstraction is okay)
 ***Relationships***
 - Here are the relationships and cardinalities between the entities:
 1. Restaurant-outlet can have many orders (one-to-many)
-2. A Customer can places many orders (one-to-many).
-3. Payment is used in many orders (one-to-many).
-4. Delivery is associated with many orders (one-to-many).
-5. Menu_item contains many Ingredients / Ingredient is used in many Menu_items (many-to-many). Hence a junction table will be needed here to reference menu_item table and ingredient table
+2. A restaurant-outlet can have many menu and vice-versa. Hence, a junction table will be needed here to reference restaurant-outlet and menu_item
+3. A Customer can places many orders (one-to-many).
+4. Payment is used in many orders (one-to-many).
+5. Delivery is associated with many orders (one-to-many).
+6. Menu_item contains many Ingredients / Ingredient is used in many Menu_items (many-to-many). Hence a junction table will be needed here to reference menu_item table and ingredient table
 7. Supplier supplies many ingredients (one-to-many).
 8. Promotion can be applied to many orders (one-to-many).
 9. Orders can include many menu_items (many-to-many). Hence a junction table will be needed here to reference orders table and menu_item table
