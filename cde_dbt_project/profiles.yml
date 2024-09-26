@@ -1,0 +1,14 @@
+cde_dbt_project:  # This should match the profile name in dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: yb27417.uk-south.azure
+      user: Tobi
+      password: Tobi@#2024
+      role: AccountAdmin
+      database: dbt_cde_project
+      warehouse: COMPUTE_WH
+      schema: fufu
+      authenticator: snowflake
+      client_session_keep_alive: False

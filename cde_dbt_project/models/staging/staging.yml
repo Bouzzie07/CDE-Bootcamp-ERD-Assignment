@@ -1,0 +1,257 @@
+version: 2
+
+staging:
+  - name: stg_customers
+    description: "Staging model for customers. Transforms raw customer data from the seed."
+    columns:
+      - name: customer_id
+        description: "Unique identifier for each customer."
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: "First name of the customer."
+        tests:
+          - not_null
+      - name: last_name
+        description: "Last name of the customer."
+      - name: phone_number
+        description: "Phone number of the customer."
+      - name: email_address
+        description: "Email address of the customer."
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['valid@example.com', 'test@example.co.uk']
+      - name: date_created
+        description: "Date when the customer record was created."
+      - name: address
+        description: "Address of the customer."
+      - name: address_id
+        description: "Unique identifier for the customer's address."
+
+  - name: stg_payments
+    description: "Staging model for payment methods. Transforms raw payment data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each payment method."
+        tests:
+          - unique
+          - not_null
+      - name: payment_method
+        description: "Type of payment method used (e.g., credit card, cash)."
+        tests:
+          - not_null
+      - name: description
+        description: "Description of the payment method."
+
+  - name: stg_deliveries
+    description: "Staging model for delivery options. Transforms raw delivery data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each delivery option."
+        tests:
+          - unique
+          - not_null
+      - name: delivery_option_name
+        description: "Name of the delivery option (e.g., standard, express)."
+        tests:
+          - not_null
+      - name: description
+        description: "Description of the delivery option."
+
+  - name: stg_menu_items
+    description: "Staging model for menu items. Transforms raw menu data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each menu item."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Name of the menu item."
+        tests:
+          - not_null
+      - name: description
+        description: "Description of the menu item."
+      - name: price
+        description: "Price of the menu item."
+        tests:
+          - not_null
+      - name: availability
+        description: "Indicates if the menu item is currently available."
+        tests:
+          - not_null
+      - name: is_it_core
+        description: "Indicates whether the menu item is a core item."
+        tests:
+          - not_null
+      - name: ingredient_id
+        description: "Reference to the ingredient used in the menu item."
+        tests:
+          - not_null
+      - name: date_created
+        description: "Date when the menu item was created."
+        tests:
+          - not_null
+      - name: date_updated
+        description: "Date when the menu item was last updated."
+        tests:
+          - not_null
+
+  - name: stg_ingredients
+    description: "Staging model for ingredients. Transforms raw ingredient data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each ingredient."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Name of the ingredient."
+        tests:
+          - not_null
+      - name: description
+        description: "Description of the ingredient."
+      - name: supplier_id
+        description: "Reference to the supplier of the ingredient."
+        tests:
+          - not_null
+      - name: cost
+        description: "Cost of the ingredient."
+        tests:
+          - not_null
+      - name: quantity
+        description: "Quantity of the ingredient available."
+        tests:
+          - not_null
+
+  - name: stg_suppliers
+    description: "Staging model for suppliers. Transforms raw supplier data from the seed."
+    columns:
+      - name: supplier_id
+        description: "Unique identifier for each supplier."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Name of the supplier's company."
+        tests:
+          - not_null
+      - name: phone_number
+        description: "Phone number of the supplier."
+      - name: email
+        description: "Email address of the supplier."
+      - name: address
+        description: "Address of the supplier."
+      - name: date_created
+        description: "Date when the supplier record was created."
+      - name: address_id
+        description: "Location of the supplier."
+
+  - name: stg_promotions
+    description: "Staging model for promotions. Transforms raw promotion data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each promotion."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Name of the promotion."
+        tests:
+          - not_null
+      - name: description
+        description: "Description of the promotion."
+      - name: start_date
+        description: "Start date of the promotion."
+      - name: end_date
+        description: "End date of the promotion."
+
+  - name: stg_orders
+    description: "Staging model for orders. Transforms raw order data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each order."
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Reference to the customer who placed the order."
+      - name: outlet_id
+        description: "Reference to the restaurant outlet where the order was placed."
+      - name: order_date
+        description: "Date when the order was placed."
+        tests:
+          - not_null
+      - name: total_amount
+        description: "Total amount for the order."
+        tests:
+          - not_null
+      - name: status
+        description: "Status of the order (e.g., pending, completed)."
+      - name: payment_id
+        description: "Reference to the payment method used."
+      - name: delivery_id
+        description: "Reference to the delivery option chosen."
+      - name: dining_option
+        description: "Type of dining option selected (e.g., eat-in, take-out, online)."
+
+  - name: stg_stocks
+    description: "Staging model for stock. Transforms raw stock data from the seed."
+    columns:
+      - name: id
+        description: "Unique identifier for each stock record."
+        tests:
+          - unique
+          - not_null
+      - name: ingredient_id
+        description: "Reference to the ingredient in stock."
+      - name: menu_item_id
+        description: "Reference to the menu item associated with the stock."
+      - name: quantity_used
+        description: "Quantity of the ingredient used."
+      - name: unit_measure
+        description: "Unit of measure for the ingredient (e.g., kg, g, liters)."
+      - name: reorder_level
+        description: "Minimum level at which stock needs to be reordered."
+      - name: date
+        description: "Date of the stock record."
+
+  - name: stg_outlets
+    description: "Staging model for outlets. Transforms raw outlet data from the seed."
+    columns:
+      - name: outlet_id
+        description: "Unique identifier for each outlet."
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: "Name of the outlet."
+        tests:
+          - not_null
+      - name: address
+        description: "Address of the outlet."
+      - name: contact_number
+        description: "Contact number of the outlet."
+      - name: email_address
+        description: "Email address of the outlet."
+      - name: address_id
+        description: "Unique identifier for the outlet's address."
+
+  - name: stg_outlet_menu_service
+    description: "Staging model for Table that tracks the core and optional food per outlet."
+    columns:
+      - name: id
+        description: "Unique identifier for each outlet."
+        tests:
+          - unique
+          - not_null
+      - name: outlet_id
+        description: "ID of the outlet."
+      - name: menu_item_id
+        description: "ID of the menu_item."
+      - name: is_optional
+        description: "Core/optional food offered by outlet."
+        tests:
+          - not_null

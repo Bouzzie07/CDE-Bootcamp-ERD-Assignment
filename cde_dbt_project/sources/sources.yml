@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: restaurant_data_sources
+    database: dbt_cde_project
+    schema: fufu
+    description: "Source data from seed CSV files generated using the Faker library (Faker_Food module inclusive)"
+    tables:
+      - name: outlets
+        description: "Table containing information about restaurant outlets, including their names, addresses, and contact details."
+
+      - name: customers
+        description: "Table containing customer details such as names, contact information, and addresses."
+
+      - name: payments
+        description: "Table that records payment methods and related descriptions."
+
+      - name: deliveries
+        description: "Table listing available delivery options and their descriptions."
+
+      - name: menu_items
+        description: "Table with details about menu items, including names, prices, and availability."\
+
+      - name: ingredients
+        description: "Table containing ingredients used in menu items, including supplier information and quantities."
+
+      - name: suppliers
+        description: "Table with information about suppliers, including contact details and addresses."
+
+      - name: promotions
+        description: "Table that details promotional offers and their effective dates."
+
+      - name: orders
+        description: "Table recording customer orders, including details about the restaurant outlet and total amounts."
+
+      - name: stocks
+        description: "Table that tracks stock levels of ingredients used in menu items."
+
+      - name: outlet_menu_services
+        description: "Table that tracks the core and optional food per outlet."

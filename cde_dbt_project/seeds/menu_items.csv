@@ -1,0 +1,51 @@
+id,name,description,price,availability,is_it_core,date_created,date_updated
+5008,Pappardelle alla Bolognese,"Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread.",22.3,True,False,2024-05-23,2024-08-19
+3576,Fish and chips,"Three egg whites with spinach, mushrooms, caramelized onions, tomatoes and low-fat feta cheese. With herbed quinoa, and your choice of rye or whole-grain toast.",14.77,False,True,2024-08-10,2024-06-26
+7516,Pasta Carbonara,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",19.69,False,True,2024-08-04,2024-05-10
+2328,Linguine with clams,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",14.79,True,True,2024-07-10,2024-06-09
+2458,Chicken Fajitas,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",12.69,True,True,2024-03-21,2024-06-14
+3019,Ricotta stuffed Ravioli,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",14.6,True,True,2024-07-11,2024-04-13
+3611,Ricotta stuffed Ravioli,Breaded fried chicken with waffles. Served with maple syrup.,7.91,False,False,2024-08-14,2024-02-10
+8606,Caprese Salad,"Fresh parsley, Italian sausage, shallots, garlic, sun-dried tomatoes and mozzarella cheese in an all-butter crust. With a side of mixed fruits.",8.51,False,False,2024-03-30,2024-04-30
+9805,Chicken wings,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",17.0,True,False,2024-05-31,2024-07-09
+9927,Pasta with Tomato and Basil,"Three eggs with cilantro, tomatoes, onions, avocados and melted Emmental cheese. With a side of roasted potatoes, and your choice of toast or croissant.",21.06,True,True,2024-09-02,2024-02-08
+1068,Souvlaki,"Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",9.54,False,False,2024-09-04,2024-08-04
+4961,Teriyaki Chicken donburi,"Breaded fried chicken with waffles, and a side of maple syrup.",47.15,True,False,2024-06-03,2024-08-19
+3101,Ricotta stuffed Ravioli,"28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides.",36.37,False,True,2024-06-29,2024-04-29
+3798,Scotch eggs,"Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.",49.36,False,False,2024-05-05,2024-06-22
+9138,Ebiten maki,"Three eggs with cilantro, tomatoes, onions, avocados and melted Emmental cheese. With a side of roasted potatoes, and your choice of toast or croissant.",15.15,True,False,2024-09-21,2024-07-01
+1482,Ebiten maki,"Three egg whites with spinach, mushrooms, caramelized onions, tomatoes and low-fat feta cheese. With herbed quinoa, and your choice of rye or whole-grain toast.",39.39,True,False,2024-03-28,2024-07-09
+5883,Lasagne,"Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",45.4,False,True,2024-07-19,2024-09-06
+4815,Caprese Salad,"28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides.",21.25,False,False,2024-08-22,2024-02-17
+3440,Tuna sashimi,"Fresh parsley, Italian sausage, shallots, garlic, sun-dried tomatoes and mozzarella cheese in an all-butter crust. With a side of mixed fruits.",35.5,True,True,2024-04-16,2024-02-28
+6227,French fries with sausages,"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.",16.9,False,False,2024-04-30,2024-05-13
+5958,Linguine with clams,"Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.",14.26,True,True,2024-04-16,2024-08-16
+5458,Scotch eggs,"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.",44.96,True,False,2024-07-29,2024-01-23
+6138,Bruschette with Tomato,"Fresh parsley, Italian sausage, shallots, garlic, sun-dried tomatoes and mozzarella cheese in an all-butter crust. With a side of mixed fruits.",36.57,False,False,2024-04-01,2024-06-23
+8368,Meatballs with sauce,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",42.85,True,True,2024-01-08,2024-05-02
+6246,Chicken milanese,"Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.",47.49,True,False,2024-04-23,2024-02-27
+9548,Chilli con carne,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",26.7,True,True,2024-02-23,2024-05-16
+9192,Ebiten maki,"28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides.",27.31,True,False,2024-03-18,2024-01-30
+4214,Caesar Salad,"Fresh parsley, Italian sausage, shallots, garlic, sun-dried tomatoes and mozzarella cheese in an all-butter crust. With a side of mixed fruits.",31.7,False,False,2024-04-18,2024-07-05
+9779,Teriyaki Chicken donburi,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",22.09,False,True,2024-02-03,2024-06-08
+5960,Califlower penne,"Granny Smith apples mixed with brown sugar and butter filling, in a flaky all-butter crust, with ice cream.",5.63,False,True,2024-05-11,2024-01-06
+7024,Vegetable Soup,Breaded fried chicken with waffles. Served with maple syrup.,31.44,True,True,2024-02-22,2024-04-01
+8862,Ebiten maki,"Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread.",9.77,False,False,2024-05-31,2024-08-06
+5488,Pappardelle alla Bolognese,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",34.8,False,True,2024-02-11,2024-01-18
+9274,Barbecue Ribs,"28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides.",48.52,False,True,2024-04-16,2024-02-05
+3820,Tuna sashimi,"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.",12.87,False,False,2024-01-19,2024-06-01
+9148,Pizza,"Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.",40.44,True,True,2024-05-23,2024-02-19
+868,Pizza,"Breaded fried chicken with waffles, and a side of maple syrup.",45.83,True,True,2024-08-05,2024-09-25
+2881,French fries with sausages,"28-day aged 300g USDA Certified Prime Ribeye, rosemary-thyme garlic butter, with choice of two sides.",11.74,False,True,2024-08-10,2024-01-25
+2646,Cheeseburger,"Smoked salmon, poached eggs, diced red onions and Hollandaise sauce on an English muffin. With a side of roasted potatoes.",30.86,True,True,2024-05-08,2024-03-02
+5085,Califlower penne,"Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",32.79,True,False,2024-01-06,2024-08-27
+7771,Pappardelle alla Bolognese,"Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",30.62,True,False,2024-07-04,2024-06-04
+7563,Tuna sashimi,"Three eggs with cilantro, tomatoes, onions, avocados and melted Emmental cheese. With a side of roasted potatoes, and your choice of toast or croissant.",35.14,False,False,2024-07-01,2024-07-24
+2790,Fettuccine Alfredo,"Three eggs with cilantro, tomatoes, onions, avocados and melted Emmental cheese. With a side of roasted potatoes, and your choice of toast or croissant.",20.58,True,False,2024-06-16,2024-07-06
+3411,Tiramisù,"Fresh Norwegian salmon, lightly brushed with our herbed Dijon mustard sauce, with choice of two sides.",14.61,False,True,2024-03-28,2024-05-24
+1853,Mushroom Risotto,"Thick slices of French toast bread, brown sugar, half-and-half and vanilla, topped with powdered sugar. With two eggs served any style, and your choice of smoked bacon or smoked ham.",37.32,False,True,2024-02-21,2024-02-14
+5186,Chicken milanese,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",7.88,True,False,2024-09-15,2024-09-05
+7438,Souvlaki,"Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",31.27,True,True,2024-02-27,2024-03-31
+3351,Pizza,"Three egg whites with spinach, mushrooms, caramelized onions, tomatoes and low-fat feta cheese. With herbed quinoa, and your choice of rye or whole-grain toast.",6.07,False,False,2024-02-29,2024-06-07
+5946,Ricotta stuffed Ravioli,"Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",33.91,False,True,2024-04-01,2024-08-14
+1112,Pizza,"Three egg omelet with Roquefort cheese, chives, and ham. With a side of roasted potatoes, and your choice of toast or croissant.",46.3,True,False,2024-02-11,2024-01-16
